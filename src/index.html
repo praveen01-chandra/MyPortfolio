@@ -11,15 +11,15 @@
 <body class="font-sans">
   <section class="flex">
     <!-- Sidebar Section -->
-    <section class="sideNavbar w-1/5 h-screen sticky top-0 z-50 bg-red-50">
+    <section class="sideNavbar w-1/5 h-screen sticky top-0 z-50 bg-red-50 hidden lg:block">
       <div class="nav-container w-full h-full">
         <nav class="navbar">
           <div class="flex flex-col justify-center items-center h-auto mb-12">
-            <div class="logo lg:text-4xl md:2xl sm:text-xl h-20 mt-10 font-black text-black-600 tracking-wider">
-              <span class="lg:text-6xl md:text-3xl sm:text-xl">.</span>FOLIO
+            <div class="logo lg:text-4xl md:2xl  h-20 mt-10 font-black text-black-600 tracking-wider">
+              <span class="lg:text-6xl md:text-3xl">.</span>FOLIO
             </div>
             <div
-              class="imageMy lg:h-44 lg:w-44 md:h-32 md:w-32 sm:w-16 sm:h-16 bg-[url('IMG/orion.jpeg')] bg-cover bg-center rounded-full ">
+              class="imageMy lg:h-44 lg:w-44 md:h-32 md:w-32 bg-[url('IMG/orion.jpeg')] bg-cover bg-center rounded-full ">
 
             </div>
           </div>
@@ -42,7 +42,7 @@
     </section>
 
     <!-- Main Content Section -->
-    <section class="bg-gray-600 w-4/5 pl-24 pr-24">
+    <section class="bg-gray-600 sm:w-full lg:w-4/5 pl-24 pr-24">
       <section class="aboutMe w-full h-auto bg-gray-600 text-white">
 
         <div id="about" class="flex justify-center flex-col items-center text-center">
@@ -62,8 +62,8 @@
 
         <div class="mt-16">
           <div class="flex justify-between items-center">
-            <div class="img w-3/12 h-64 bg-blue-300 "></div>
-            <div class="text w-8/12">
+            <div class="img lg:w-3/12 h-64 bg-blue-300 "></div>
+            <div class="text lg:w-8/12 sm:w-full">
               <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                 User-Friendly Design</h2>
               <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
@@ -77,7 +77,7 @@
 
         <div class="mt-16">
           <div class="flex justify-between items-center">
-            <div class="text w-8/12">
+            <div class="text lg:w-8/12 sm:w-full">
               <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                 Engaging User Experiences</h2>
               <p>My goal is to create engaging web experiences that captivate users. Through intuitive design and
@@ -87,14 +87,14 @@
               <button class="mt-8 font-medium border rounded-xl border-spacing-4 readBtn">READ
                 MORE</button>
             </div>
-            <div class="img w-3/12 h-64 bg-blue-300 "></div>
+            <div class="img lg:w-3/12 h-64 bg-blue-300 "></div>
           </div>
         </div>
 
         <div class="mt-16 mb-16">
           <div class="flex justify-between items-center">
-            <div class="img w-3/12 h-64 bg-blue-300 "></div>
-            <div class="text w-8/12">
+            <div class="img lg:w-3/12 h-64 bg-blue-300 "></div>
+            <div class="text lg:w-8/12 sm:w-full">
               <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                 Efficient Site Performance</h2>
               <p>I focus on ensuring efficient site performance, making sure every website operates smoothly and
@@ -128,50 +128,50 @@
         <div class="skills mb-16 flex flex-wrap">
           <!-- Skills Blocks -->
 
-          <div class="skillBlock m-1">
+          <div class="skillBlock lg:m-1 m-2">
             <div
-              class="diffBlock w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 h-14" src="IMG/html.png" alt="html">
+              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
+              <div class="icon flex justify-center items-center mb-12">
+                <img class="w-14 md:w-16" src="IMG/html.png" alt="html">
               </div>
-              <h2 class="mb-6 text-xl font-bold font-mono">HTML5/CSS3</h2>
+              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">HTML5/CSS3</h2>
               <p class=" skillContant text-md font-medium text-black">Build clean and modern web pages using HTML5 and
                 CSS3. Focused on creating well-structured layouts and visually appealing designs for a seamless user
                 experience.</p>
             </div>
           </div>
-          <div class="skillBlock m-1">
+          <div class="skillBlock lg:m-1 m-2">
             <div
-              class="diffBlock w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
+              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
               <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 h-14" src="IMG/js.png" alt="js">
+                <img class="w-14 md:w-16" src="IMG/js.png" alt="js">
               </div>
-              <h2 class="mb-6 text-xl font-bold font-mono">JavaScript</h2>
+              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">JavaScript</h2>
               <p class=" skillContant text-md font-medium text-black">Enhance websites with interactive features using
                 JavaScript. Comfortable with adding dynamic content and improving functionality to create engaging user
                 experiences.</p>
             </div>
           </div>
 
-          <div class="skillBlock m-1">
+          <div class="skillBlock lg:m-1 m-2">
             <div
-              class="diffBlock w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
+              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
               <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 h-14" src="IMG/WebLite.png" alt="web">
+                <img class="w-14 md:w-16" src="IMG/WebLite.png" alt="web">
               </div>
-              <h2 class="mb-6 text-xl font-bold font-mono">Tailwind & Bootstrap</h2>
+              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">Tailwind & Bootstrap</h2>
               <p class=" skillContant text-md font-medium text-black">Leverage Tailwind CSS and Bootstrap for quick,
                 responsive design. Use utility-first and pre-built components to create flexible, visually appealing
                 layouts while keeping the code clean and organized.</p>
             </div>
           </div>
-          <div class="skillBlock m-1">
+          <div class="skillBlock lg:m-1 m-2">
             <div
-              class="diffBlock w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
+              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
               <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 h-14" src="IMG/users.png" alt="SEO">
+                <img class="w-14 md:w-16" src="IMG/users.png" alt="SEO">
               </div>
-              <h2 class="mb-6 text-xl font-bold font-mono">Web Performance & SEO </h2>
+              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">Web Performance & SEO </h2>
               <p class=" skillContant text-md font-medium text-black">Optimize websites for faster loading and better
                 performance. Collaborate with SEO teams to improve search rankings by enhancing content and site speed
                 for
@@ -179,26 +179,26 @@
             </div>
           </div>
 
-          <div class="skillBlock m-1">
+          <div class="skillBlock lg:m-1 m-2">
             <div
-              class="diffBlock w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
+              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
               <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 h-14" src="IMG/responsive.png" alt="Responsive">
+                <img class="w-14 md:w-16" src="IMG/responsive.png" alt="Responsive">
               </div>
-              <h2 class="mb-6 text-xl font-bold font-mono">Creative & Responsive</h2>
+              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">Creative & Responsive</h2>
               <p class=" skillContant text-md font-medium text-black">Combine creative ideas with responsive design to
                 craft websites that are visually appealing and easy to use. Ensure designs work seamlessly across all
                 devices, providing a consistent and enjoyable user experience.</p>
             </div>
           </div>
 
-          <div class="skillBlock m-1">
+          <div class="skillBlock lg:m-1 m-2">
             <div
-              class="diffBlock w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
+              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
               <div class="icon flex  justify-center items-center mb-4">
-                <img class="w-14 h-14" src="IMG/react.png" alt="react">
+                <img class="w-14 md:w-16" src="IMG/react.png" alt="react">
               </div>
-              <h2 class="mb-6 text-xl font-bold font-mono">React (Learning)</h2>
+              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">React (Learning)</h2>
               <p class=" skillContant text-md font-medium text-black">Currently learning React to build dynamic and
                 interactive user interfaces. Gaining skills in creating reusable components and managing state to
                 enhance
@@ -228,12 +228,16 @@
         <div>
 
           <div class="mt-16 mb-4">
-            <div class="flex justify-between items-center w-full">
-              <div class="projectImg"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text w-6/12">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text lg:w-7/12"> 
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   Library Website</h2>
-                <p>This project is a user-friendly library website designed to help users easily <span class="text-red-400 font-bold">browse, search, and manage books</span>. The site features a clean layout with responsive design, ensuring accessibility on all devices. It also includes interactive elements for a smooth user experience, making it simple to locate and reserve books. This project reflects my focus on delivering functional and visually appealing web solutions.</p>
+                <p>This project is a user-friendly library website designed to help users easily <span
+                    class="text-red-400 font-bold">browse, search, and manage books</span>. The site features a clean
+                  layout with responsive design, ensuring accessibility on all devices. It also includes interactive
+                  elements for a smooth user experience, making it simple to locate and reserve books. This project
+                  reflects my focus on delivering functional and visually appealing web solutions.</p>
                 <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
                   WEBSITE</button>
               </div>
@@ -241,8 +245,9 @@
           </div>
 
           <div class="mt-16 mb-4">
-            <div class="flex justify-between items-center w-full">
-              <div class="text w-6/12">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text w-full lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   User-Friendly Design</h2>
                 <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
@@ -251,14 +256,31 @@
                 <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
                   WEBSITE</button>
               </div>
-              <div class="projectImg"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="projectImg hidden lg:flex"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
             </div>
           </div>
 
           <div class="mt-16 mb-4">
-            <div class="flex justify-between items-center w-full">
-              <div class="projectImg"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text w-6/12">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text lg:w-7/12"> 
+                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
+                  Library Website</h2>
+                <p>This project is a user-friendly library website designed to help users easily <span
+                    class="text-red-400 font-bold">browse, search, and manage books</span>. The site features a clean
+                  layout with responsive design, ensuring accessibility on all devices. It also includes interactive
+                  elements for a smooth user experience, making it simple to locate and reserve books. This project
+                  reflects my focus on delivering functional and visually appealing web solutions.</p>
+                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
+                  WEBSITE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-16 mb-4">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text w-full lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   User-Friendly Design</h2>
                 <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
@@ -267,12 +289,31 @@
                 <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
                   WEBSITE</button>
               </div>
+              <div class="projectImg hidden lg:flex"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
             </div>
           </div>
 
           <div class="mt-16 mb-4">
-            <div class="flex justify-between items-center w-full">
-              <div class="text w-6/12">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text lg:w-7/12"> 
+                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
+                  Library Website</h2>
+                <p>This project is a user-friendly library website designed to help users easily <span
+                    class="text-red-400 font-bold">browse, search, and manage books</span>. The site features a clean
+                  layout with responsive design, ensuring accessibility on all devices. It also includes interactive
+                  elements for a smooth user experience, making it simple to locate and reserve books. This project
+                  reflects my focus on delivering functional and visually appealing web solutions.</p>
+                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
+                  WEBSITE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-16 mb-4">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text w-full lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   User-Friendly Design</h2>
                 <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
@@ -281,37 +322,7 @@
                 <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
                   WEBSITE</button>
               </div>
-              <div class="projectImg"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-            </div>
-          </div>
-
-          <div class="mt-16 mb-4">
-            <div class="flex justify-between items-center w-full">
-              <div class="projectImg"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text w-6/12">
-                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
-                  User-Friendly Design</h2>
-                <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
-                  aim is to build simple, enjoyable sites that people find easy to navigate and visually appealing. I
-                  focus on making sure the design and functionality are just right.</p>
-                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
-                  WEBSITE</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-16 mb-4">
-            <div class="flex justify-between items-center w-full">
-              <div class="text w-6/12">
-                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
-                  User-Friendly Design</h2>
-                <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
-                  aim is to build simple, enjoyable sites that people find easy to navigate and visually appealing. I
-                  focus on making sure the design and functionality are just right.</p>
-                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
-                  WEBSITE</button>
-              </div>
-              <div class="projectImg"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="projectImg hidden lg:flex"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
             </div>
           </div>
 

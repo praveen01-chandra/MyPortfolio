@@ -35,11 +35,10 @@
 }
 
 .projectImg {
-      background-image: url();
       background-size: cover;
       background-position: center;
       height: 250px;
-      width: 450px;
+      width: 400px;
 }
 
 .visitBtn {
@@ -82,6 +81,8 @@
       100% { background-color: #e6bfbf; }
       
     }
+    
+
     
 
 /* #f87171 */
