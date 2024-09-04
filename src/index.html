@@ -9,18 +9,30 @@
 </head>
 
 <body class="font-sans">
-  <section class="flex">
+  <section class="flex text-lg lg:text-base">
     <!-- Sidebar Section -->
-    <section class="sideNavbar w-1/5 h-screen sticky top-0 z-50 bg-red-50 hidden lg:block">
+    <section class="sideNavbar w-1/5 h-screen sticky top-0 z-50 bg-green-200 hidden lg:block">
       <div class="nav-container w-full h-full">
         <nav class="navbar">
-          <div class="flex flex-col justify-center items-center h-auto mb-12">
+          <div class="flex flex-col justify-center items-center h-auto mb-8">
             <div class="logo lg:text-4xl md:2xl  h-20 mt-10 font-black text-black-600 tracking-wider">
               <span class="lg:text-6xl md:text-3xl">.</span>FOLIO
             </div>
             <div
               class="imageMy lg:h-44 lg:w-44 md:h-32 md:w-32 bg-[url('IMG/orion.jpeg')] bg-cover bg-center rounded-full ">
-
+            </div>
+            <div class="socialIcon deskSocial mt-6 hidden lg:flex w-full justify-evenly">
+              <a href="#" class="transition-all duration-500 rounded-3xl h-8 w-8 hover:h-9 hover:w-9 "><img
+                  src="IMG/github.png" alt="Github"></a>
+              <a href="#" class="transition-all duration-500 rounded-3xl h-8 w-8 hover:h-9 hover:w-9 "><img
+                  src="IMG/linkedin.png" alt="Linkedin"></a>
+              <a href="#" class="transition-all duration-500 rounded-3xl h-8 w-8 hover:h-9 hover:w-9 "><img
+                  src="IMG/mail.png" alt="Mail"></a>
+              <a href="#" class="transition-all duration-500 rounded-3xl h-8 w-8 hover:h-9 hover:w-9 "><img
+                  src="IMG/instagram.png" alt="Instagram"></a>
+              <a href="#" class="transition-all duration-500 rounded-3xl h-8 w-8 hover:h-9 hover:w-9 "><img
+                  src="IMG/twitter.png" alt="Twitter">
+              </a>
             </div>
           </div>
           <ul class="lg:w-full md:w-full flex justify-center flex-col items-center text-black lg:text-xl font-semibold">
@@ -42,14 +54,15 @@
     </section>
 
     <!-- Main Content Section -->
-    <section class="bg-gray-600 sm:w-full lg:w-4/5 pl-24 pr-24">
-      <section class="aboutMe w-full h-auto bg-gray-600 text-white">
-
-        <div id="about" class="flex justify-center flex-col items-center text-center">
-          <h2 class="mt-20 mb-10 text-3xl font-bold underline decoration-red-400 decoration-2 underline-offset-8">
+    <section class="bg-gray-600 sm:w-full lg:w-4/5 lg:pr-24 lg:pl-24 pr-4 pl-4">
+      <section class="aboutMe w-full h-auto text-white">
+        <!-- About Me  -->
+        <div id="about" class="flex justify-center flex-col items-center lg:text-center">
+          <h2
+            class="lg:mt-10 mt-10 mb-10 text-4xl font-bold underline decoration-red-400 decoration-2 underline-offset-8">
             About Me
           </h2>
-          <p class="text-lg">
+          <p class="text-xl">
             I’m <span class="text-red-400 font-bold">Praveen Chandra</span>, a web developer who loves creating websites
             that are
             <span class="text-red-400 font-bold">Easy to Use</span> and look amazing. I turn
@@ -59,10 +72,25 @@
               Perfectly</span>.
           </p>
         </div>
+        <div class="socialIcon mt-10 flex justify-evenly bg-yellow-100 w-full p-4 sticky top-4 lg:hidden">
+          <a href="#" class="rounded-3xl h-12 w-12 border-2 border-red-600 p-2 bg-white"><img src="IMG/github.png"
+              alt="Github"></a>
+          <a href="#" class="rounded-3xl h-12 w-12 border-2 border-red-600 p-2 bg-white"><img src="IMG/linkedin.png"
+              alt="Linkedin"></a>
+          <a href="#" class="rounded-3xl h-12 w-12 border-2 border-red-600 p-2 bg-white"><img src="IMG/mail.png"
+              alt="Mail">
+          </a>
+          <a href="#" class="rounded-3xl h-12 w-12 border-2 border-red-600 p-2 bg-white"><img src="IMG/instagram.png"
+              alt="Instagram"></a>
+          <a href="#" class="rounded-3xl h-12 w-12 border-2 border-red-600 p-2 bg-white"><img src="IMG/twitter.png"
+              alt="Twitter">
+          </a>
+        </div>
 
         <div class="mt-16">
           <div class="flex justify-between items-center">
-            <div class="img lg:w-3/12 h-64 bg-blue-300 "></div>
+            <div class="img lg:w-4/12 mr-6 h-64 hidden lg:flex"> <img class="h-full w-full rounded-lg"
+                src="IMG/userFriendly.jpg" loading="lazy" alt=""></div>
             <div class="text lg:w-8/12 sm:w-full">
               <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                 User-Friendly Design</h2>
@@ -87,13 +115,15 @@
               <button class="mt-8 font-medium border rounded-xl border-spacing-4 readBtn">READ
                 MORE</button>
             </div>
-            <div class="img lg:w-3/12 h-64 bg-blue-300 "></div>
+            <div class="img lg:w-4/12 mr-6 h-64 hidden lg:flex"> <img class="h-full w-full rounded-lg"
+                src="IMG/engagingUser.jpg" loading="lazy" alt=""></div>
           </div>
         </div>
 
         <div class="mt-16 mb-16">
           <div class="flex justify-between items-center">
-            <div class="img lg:w-3/12 h-64 bg-blue-300 "></div>
+            <div class="img lg:w-4/12 mr-6 h-64 hidden lg:flex"> <img class="h-full w-full rounded-lg"
+                src="IMG/sitePerformance.jpg" loading="lazy" alt=""></div>
             <div class="text lg:w-8/12 sm:w-full">
               <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                 Efficient Site Performance</h2>
@@ -113,7 +143,7 @@
 
 
       <section id="skills" class="text-white flex flex-col justify-center items-center">
-        <div class="skill flex justify-center flex-col items-center text-center mb-10">
+        <div class="skill flex justify-center flex-col items-center lg:text-center mb-10">
 
           <h2 class="mt-20 mb-10 text-3xl font-bold underline decoration-red-400 decoration-2 underline-offset-8">
             What I,m Good At?</h2>
@@ -125,53 +155,57 @@
             performance with SEO considerations.</p>
         </div>
 
-        <div class="skills mb-16 flex flex-wrap">
+        <div class="skills mb-16 flex flex-wrap justify-center items-center">
           <!-- Skills Blocks -->
 
-          <div class="skillBlock lg:m-1 m-2">
+          <div class="skillBlock m-2">
             <div
-              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex justify-center items-center mb-12">
-                <img class="w-14 md:w-16" src="IMG/html.png" alt="html">
+              class="diffBlock w-full lg:w-80 md:w-80 lg:h-96 h-80 rounded-xl bg-gray-100 text-red-400 flex flex-col justify-center items-center p-6 lg:text-center">
+              <div
+                class="icon flex justify-center items-center mb-5 border-4 p-3 border-green-300 bg-red-200 rounded-full">
+                <img class="w-10" src="IMG/html.png" alt="html">
               </div>
-              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">HTML5/CSS3</h2>
+              <h3 class="mb-6 text-xl md:text-2xl font-bold font-serif text-red-600">HTML5/CSS3</h3>
               <p class=" skillContant text-md font-medium text-black">Build clean and modern web pages using HTML5 and
                 CSS3. Focused on creating well-structured layouts and visually appealing designs for a seamless user
                 experience.</p>
             </div>
           </div>
-          <div class="skillBlock lg:m-1 m-2">
+          <div class="skillBlock m-2">
             <div
-              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 md:w-16" src="IMG/js.png" alt="js">
+              class="diffBlock w-full lg:w-80 md:w-80 lg:h-96 h-80 rounded-xl bg-gray-100 text-red-400 flex flex-col justify-center items-center p-6 lg:text-center">
+              <div
+                class="icon flex justify-center items-center mb-5 border-4 p-3 border-green-300 bg-red-200 rounded-full">
+                <img class="w-10" src="IMG/js.png" alt="js">
               </div>
-              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">JavaScript</h2>
+              <h3 class="mb-6 text-xl md:text-2xl font-bold font-serif text-red-600">JavaScript</h3>
               <p class=" skillContant text-md font-medium text-black">Enhance websites with interactive features using
                 JavaScript. Comfortable with adding dynamic content and improving functionality to create engaging user
                 experiences.</p>
             </div>
           </div>
 
-          <div class="skillBlock lg:m-1 m-2">
+          <div class="skillBlock m-2">
             <div
-              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 md:w-16" src="IMG/WebLite.png" alt="web">
+              class="diffBlock w-full lg:w-80 md:w-80 lg:h-96 h-80 rounded-xl bg-gray-100 text-red-400 flex flex-col justify-center items-center p-6 lg:text-center">
+              <div
+                class="icon flex justify-center items-center mb-5 border-4 p-3 border-green-300 bg-red-200 rounded-full">
+                <img class="w-10" src="IMG/WebLite.png" alt="web">
               </div>
-              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">Tailwind & Bootstrap</h2>
+              <h3 class="mb-6 text-xl md:text-2xl font-bold font-serif text-red-600">Tailwind & Bootstrap</h3>
               <p class=" skillContant text-md font-medium text-black">Leverage Tailwind CSS and Bootstrap for quick,
                 responsive design. Use utility-first and pre-built components to create flexible, visually appealing
                 layouts while keeping the code clean and organized.</p>
             </div>
           </div>
-          <div class="skillBlock lg:m-1 m-2">
+          <div class="skillBlock m-2">
             <div
-              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 md:w-16" src="IMG/users.png" alt="SEO">
+              class="diffBlock w-full lg:w-80 md:w-80 lg:h-96 h-80 rounded-xl bg-gray-100 text-red-400 flex flex-col justify-center items-center p-6 lg:text-center">
+              <div
+                class="icon flex justify-center items-center mb-5 border-4 p-3 border-green-300 bg-red-200 rounded-full">
+                <img class="w-10" src="IMG/users.png" loading="lazy" alt="SEO">
               </div>
-              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">Web Performance & SEO </h2>
+              <h3 class="mb-6 text-xl md:text-2xl font-bold font-serif text-red-600">Web Performance & SEO </h3>
               <p class=" skillContant text-md font-medium text-black">Optimize websites for faster loading and better
                 performance. Collaborate with SEO teams to improve search rankings by enhancing content and site speed
                 for
@@ -179,26 +213,28 @@
             </div>
           </div>
 
-          <div class="skillBlock lg:m-1 m-2">
+          <div class="skillBlock m-2">
             <div
-              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex justify-center items-center mb-4">
-                <img class="w-14 md:w-16" src="IMG/responsive.png" alt="Responsive">
+              class="diffBlock w-full lg:w-80 md:w-80 lg:h-96 h-80 rounded-xl bg-gray-100 text-red-400 flex flex-col justify-center items-center p-6 lg:text-center">
+              <div
+                class="icon flex justify-center items-center mb-5 border-4 p-3 border-green-300 bg-red-200 rounded-full">
+                <img class="w-10" src="IMG/responsive.png" alt="Responsive">
               </div>
-              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">Creative & Responsive</h2>
+              <h3 class="mb-6 text-xl md:text-2xl font-bold font-serif text-red-600">Creative & Responsive</h3>
               <p class=" skillContant text-md font-medium text-black">Combine creative ideas with responsive design to
                 craft websites that are visually appealing and easy to use. Ensure designs work seamlessly across all
                 devices, providing a consistent and enjoyable user experience.</p>
             </div>
           </div>
 
-          <div class="skillBlock lg:m-1 m-2">
+          <div class="skillBlock m-2">
             <div
-              class="diffBlock w-4/6 ml-28 lg:ml-0 lg:w-80 h-96 rounded-xl bg-orange-100 text-red-400 flex flex-col justify-center items-center p-6 text-center">
-              <div class="icon flex  justify-center items-center mb-4">
-                <img class="w-14 md:w-16" src="IMG/react.png" alt="react">
+              class="diffBlock w-full lg:w-80 md:w-80 lg:h-96 h-80 rounded-xl bg-gray-100 text-red-400 flex flex-col justify-center items-center p-6 lg:text-center">
+              <div
+                class="icon flex justify-center items-center mb-5 border-4 p-3 border-green-300 bg-red-200 rounded-full">
+                <img class="w-10" src="IMG/react.png" alt="react">
               </div>
-              <h2 class="mb-6 text-xl md:text-2xl font-bold font-mono">React (Learning)</h2>
+              <h3 class="mb-6 text-xl md:text-2xl font-bold font-serif text-red-600">React (Learning)</h3>
               <p class=" skillContant text-md font-medium text-black">Currently learning React to build dynamic and
                 interactive user interfaces. Gaining skills in creating reusable components and managing state to
                 enhance
@@ -213,7 +249,7 @@
 
       <!-- MyWork Section  -->
       <section class="myWork text-white flex flex-col justify-center items-center">
-        <div id="project" class=" flex justify-center flex-col items-center text-center mb-10">
+        <div id="project" class=" flex justify-center flex-col items-center lg:text-center mb-10">
 
           <h2 class="mt-20 mb-10 text-3xl font-bold underline decoration-red-400 decoration-2 underline-offset-8">
             My Work</h2>
@@ -230,7 +266,39 @@
           <div class="mt-16 mb-4">
             <div class="flex flex-col lg:flex-row justify-between items-center w-full">
               <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text lg:w-7/12"> 
+              <div class="text lg:w-7/12">
+                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
+                  Library Website</h2>
+                <p>This project is a user-friendly library website designed to help users easily <span
+                    class="text-red-400 font-bold">browse, search, and manage books</span>. The site features a clean
+                  layout with responsive design, ensuring accessibility on all devices. It also includes interactive
+                  elements for a smooth user experience, making it simple to locate and reserve books. This project
+                  reflects my focus on delivering functional and visually appealing web solutions.</p>
+                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn"><a href="https://read-future.netlify.app/" target="_blank" >VISIT
+                  WEBSITE</a></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-16 mb-4">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="" alt="projectImage">
+              </div>
+              <div class="text w-full lg:w-7/12">
+                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
+                  Memory Game (JavaScript)</h2>
+                <p><span class="text-red-400 font-bold">Memory Game (JavaScript)</span> is an engaging and interactive browser-based game where players test their memory by flipping cards to <span class="text-red-400 font-bold">find matching pairs</span>. Built using JavaScript, this game features smooth animations, responsive design, and varying levels of difficulty, making it perfect for players of all ages looking to improve their concentration and memory skills while having fun.</p>
+                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn"><a href="https://playmemorygames.netlify.app/" target="_blank">VISIT
+                  WEBSITE</a></button>
+              </div>
+              <div class="projectImg hidden lg:flex"> <img src="" alt="projectImage"> </div>
+            </div>
+          </div>
+<!-- 
+          <div class="mt-16 mb-4">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
+              <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="text lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   Library Website</h2>
                 <p>This project is a user-friendly library website designed to help users easily <span
@@ -246,7 +314,8 @@
 
           <div class="mt-16 mb-4">
             <div class="flex flex-col lg:flex-row justify-between items-center w-full">
-              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage">
+              </div>
               <div class="text w-full lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   User-Friendly Design</h2>
@@ -263,7 +332,7 @@
           <div class="mt-16 mb-4">
             <div class="flex flex-col lg:flex-row justify-between items-center w-full">
               <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text lg:w-7/12"> 
+              <div class="text lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   Library Website</h2>
                 <p>This project is a user-friendly library website designed to help users easily <span
@@ -279,7 +348,8 @@
 
           <div class="mt-16 mb-4">
             <div class="flex flex-col lg:flex-row justify-between items-center w-full">
-              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
+              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage">
+              </div>
               <div class="text w-full lg:w-7/12">
                 <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
                   User-Friendly Design</h2>
@@ -291,40 +361,7 @@
               </div>
               <div class="projectImg hidden lg:flex"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
             </div>
-          </div>
-
-          <div class="mt-16 mb-4">
-            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
-              <div class="projectImg lg:mr-4 lg:mb-0 mb-10"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text lg:w-7/12"> 
-                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
-                  Library Website</h2>
-                <p>This project is a user-friendly library website designed to help users easily <span
-                    class="text-red-400 font-bold">browse, search, and manage books</span>. The site features a clean
-                  layout with responsive design, ensuring accessibility on all devices. It also includes interactive
-                  elements for a smooth user experience, making it simple to locate and reserve books. This project
-                  reflects my focus on delivering functional and visually appealing web solutions.</p>
-                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
-                  WEBSITE</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-16 mb-4">
-            <div class="flex flex-col lg:flex-row justify-between items-center w-full">
-              <div class="projectImg w-full lg:mr-4 mb-10 lg:hidden"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-              <div class="text w-full lg:w-7/12">
-                <h2 class="text-2xl mb-8 font-bold tracking-wider underline-offset-8 underline decoration-red-400">
-                  User-Friendly Design</h2>
-                <p>I <span class="text-red-400 font-bold">Create Websites</span> that are easy to use and look great. My
-                  aim is to build simple, enjoyable sites that people find easy to navigate and visually appealing. I
-                  focus on making sure the design and functionality are just right.</p>
-                <button class="mt-8 font-semibold text-xl bg-transparent visitBtn">VISIT
-                  WEBSITE</button>
-              </div>
-              <div class="projectImg hidden lg:flex"> <img src="IMG/ReadFuture.png" alt="projectImage"> </div>
-            </div>
-          </div>
+          </div> -->
 
         </div>
       </section>
@@ -333,44 +370,45 @@
 
       <!-- contant me  -->
 
-      <section class="contact" id="contact">
-        <h2
-          class="mt-20 mb-14 text-3xl font-bold underline decoration-red-400 text-white w-full flex justify-center decoration-2 underline-offset-8">
-          Contact Me</h2>
+      <section class="contact w-full text-white" id="contact">
+        <div class="flex justify-center flex-col items-center lg:text-center mb-10 text-xl">
+          <h2 class="mb-10 text-3xl font-bold underline decoration-red-400 decoration-2 underline-offset-8">
+            Contact Me</h2>
+          <p>Have a project in mind or just want to say hello? Feel free to get in touch—I’d love to hear from you and
+            explore new opportunities together. Let’s connect and create something amazing!</p>
+        </div>
         <div class="contactme text-white flex flex-col justify-center items-center text-xl tracking-wider w-full">
-          <div class="w-3/4 flex justify-end  mb-6">
-            Name* <input class="h-10 w-3/5 bg-transparent border-gray-400 border-2 p-6 text-red-400 ml-5 outline-none"
-              type="text" required>
+          <div class="lg:w-3/4 w-full mb-6 flex justify-evenly">
+            <input class="h-10 w-full bg-transparent border-gray-400 border-2 p-6 text-red-400 ml-5 outline-none"
+              placeholder="Full Name*" type="text" required>
           </div>
-          <div class="w-3/4 flex justify-end">
-            Email* <input
-              class="h-10 w-3/5 bg-transparent border-gray-400 border-2 p-6 text-red-400 ml-5 mb-6 outline-none"
-              type="text" required>
+          <div class="lg:w-3/4 w-full mb-6 flex justify-evenly">
+            <input class="h-10 w-full bg-transparent border-gray-400 border-2 p-6 text-red-400 ml-5 outline-none"
+              type="text" placeholder="Email*" required>
           </div>
-          <div class="w-3/4 flex justify-end">
-            Other Contact <input
-              class="h-10 w-3/5 bg-transparent border-gray-400 border-2 p-6 text-red-400 ml-5 mb-6 outline-none"
-              type="text">
+          <div class="lg:w-3/4 w-full mb-6 flex justify-evenly text-lg">
+            <input class="h-10 w-full bg-transparent border-gray-400 border-2 p-6 text-red-400 ml-5 outline-none"
+              type="text" placeholder="Other Contact (eg. Mob. No, Social Media)">
           </div>
-          <div class="w-3/4 h-36 flex justify-end">
-            Your Message* <textarea required
-              class="w-3/5 text-lg bg-transparent border-gray-400 border-2 p-6 text-white ml-5 mb-6 outline-none"
-              type="text"></textarea>
+          <div class="lg:w-3/4 w-full mb-6 h-36 flex justify-evenly">
+            <textarea required
+              class="w-full text-lg bg-transparent border-gray-400 border-2 p-6 text-white ml-5 outline-none"
+              type="text" placeholder="Your Message* (Explain Your Work)"></textarea>
           </div>
           <div class="w-3/4 h-36 flex justify-center">
-            <button class="h-14 bg-white w-64 text-black text-2xl font-bold rounded-3xl">Submit</button>
+            <button class="h-14 bg-white w-full lg:w-80 text-black text-2xl font-bold rounded-3xl">Submit</button>
           </div>
 
         </div>
 
       </section>
-
     </section>
   </section>
 
-  <div
-    class="mycv fixed bottom-20 right-32 z-50 bg-white text-black text-2xl font-bold pl-6 p-4 w-32 h-16 rounded-full">
-    <a href="">MY CV</a>
+  <div>
+    <a href="Praveen Chandra CV.pdf" download
+      class="mycv fixed bottom-8 right-8 z-50 text-white text-2xl font-bold pl-6 p-4 w-32 h-16 rounded-full">MY
+      CV</a>
   </div>
 
 

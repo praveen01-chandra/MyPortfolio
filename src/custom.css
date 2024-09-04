@@ -1,23 +1,23 @@
+h2 {
+      background: linear-gradient(to right, #c8daf4, #c1fae7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 10px 10px 14px 2px #000000;
+}
+
 .readBtn {
       color: rgb(248 113 113);
-      background-color: #fff;
+      background: linear-gradient(to left, #eaeff8, #b3f8e1);
       transition: 0.7s;
       padding: 12px 17px;
+      font-weight: 700;
 }
 
 .readBtn:hover {
       color: #fff;
-      background-color: rgb(248 113 113);
-}
-
-.diffBlock:hover,
-.diffBlock:hover .skillContant {
-      color: #fff;
-      background-color: rgb(248 113 113);
-}
-
-.diffBlock:hover .icon {
-      border-color: green;
+      background: linear-gradient(to right, #c6d7f2, #98f5d6);
 }
 
 .nav-item:hover {
@@ -61,6 +61,10 @@
       margin-top: 5px;
 }
 
+.socialIcon{
+      cursor: pointer;
+}
+
 .visitBtn:hover .visitDas {
       display: inline-block;
 }
@@ -70,19 +74,54 @@
       color: #fff;
 }
 
-.mycv {
-      animation: colorChange 4s infinite ease-in-out;
+.skills h2 {
+      color: #f87171 !important;
 }
 
-/* CSS Keyframes */
-@keyframes colorChange {
-      0% { background-color: white; }
-      50% { background-color: rgb(236, 126, 126); }
-      100% { background-color: #e6bfbf; }
-      
-    }
-    
+.mycv {
+      background: linear-gradient(to left, rgb(112, 111, 111), rgb(234 187 161));
+}
 
-    
+
+.diffBlock{
+      box-shadow: -2px 2px 3px 1px #ecafaf;
+      transition: .6s ease-in-out;
+      cursor: grab;
+      animation: fadein 3s ease-in;
+}
+
+.diffBlock:hover{
+      box-shadow: -5px 5px 10px 2px black;
+}
+
+.diffBlock:hover .icon {
+      border-color: green;
+}
+
+
+@keyframes fadein {
+
+      0%{
+            opacity: 0%;
+      }
+      100%{
+            opacity: 100%;
+      }
+      
+}
+@keyframes fadeout {
+
+      0%{
+            opacity: 100%;
+      }
+      100%{
+            opacity: 0%;
+      }
+      
+}
+
+
+
+
 
 /* #f87171 */
